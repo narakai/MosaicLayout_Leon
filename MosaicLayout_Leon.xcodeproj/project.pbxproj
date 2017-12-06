@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1911B52CA4FD0764644CBE4E /* Pods_MosaicLayout_Leon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5E696D630626A966B526C0 /* Pods_MosaicLayout_Leon.framework */; };
+		FCA156260C5CB890263A654D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15355816D997B298E1286 /* LaunchScreen.storyboard */; };
+		FCA15697E6B18D23E5CEE038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15783917A1E274EA63469 /* Main.storyboard */; };
+		FCA157D79A3EB320FF79AD06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15C22CF54F7E96FEBB24F /* AppDelegate.swift */; };
+		FCA159105AC3F032268DCC67 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15CF0C2A23E13851CA86F /* CustomCollectionCell.swift */; };
+		FCA15964512BAEC0DB2E0A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA1573FFA166BE8943BBA9F /* Assets.xcassets */; };
+		FCA15B2CD6B4383AF0596C4F /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15DCBDE72A05FBB41A324 /* CustomHeaderView.swift */; };
+		FCA15BD95B411D9579F4FB33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA153D4EBD098EF00F54657 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E5E696D630626A966B526C0 /* Pods_MosaicLayout_Leon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosaicLayout_Leon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6095F9005690CC6570613B42 /* Pods-MosaicLayout_Leon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicLayout_Leon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosaicLayout_Leon/Pods-MosaicLayout_Leon.release.xcconfig"; sourceTree = "<group>"; };
+		6A9EAC1B101B7B00BA1A1D01 /* Pods-MosaicLayout_Leon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicLayout_Leon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosaicLayout_Leon/Pods-MosaicLayout_Leon.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA15328972B5354BC612A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA153D4EBD098EF00F54657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA1573FFA166BE8943BBA9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA1590B047218486AEEA00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		FCA15C22CF54F7E96FEBB24F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA15C3ABA4EC169241B8EC0 /* MosaicLayout_Leon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosaicLayout_Leon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA15CF0C2A23E13851CA86F /* CustomCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		FCA15DCBDE72A05FBB41A324 /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		FCA15DE25ADCFAF9A59014F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA1548649B99DF204431C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1911B52CA4FD0764644CBE4E /* Pods_MosaicLayout_Leon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC1D9195B3B11FB32701791 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E696D630626A966B526C0 /* Pods_MosaicLayout_Leon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE91136D10DE19B8A9C8ECA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A9EAC1B101B7B00BA1A1D01 /* Pods-MosaicLayout_Leon.debug.xcconfig */,
+				6095F9005690CC6570613B42 /* Pods-MosaicLayout_Leon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCA153979D0E5422180E3BA0 /* MosaicLayout_Leon */ = {
+			isa = PBXGroup;
+			children = (
+				FCA1590B047218486AEEA00A /* Info.plist */,
+				FCA1573FFA166BE8943BBA9F /* Assets.xcassets */,
+				FCA15355816D997B298E1286 /* LaunchScreen.storyboard */,
+				FCA15C22CF54F7E96FEBB24F /* AppDelegate.swift */,
+				FCA15783917A1E274EA63469 /* Main.storyboard */,
+				FCA153D4EBD098EF00F54657 /* ViewController.swift */,
+				FCA15CF0C2A23E13851CA86F /* CustomCollectionCell.swift */,
+				FCA15DCBDE72A05FBB41A324 /* CustomHeaderView.swift */,
+			);
+			path = MosaicLayout_Leon;
+			sourceTree = "<group>";
+		};
+		FCA15995C42057CAE192ABAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA15C3ABA4EC169241B8EC0 /* MosaicLayout_Leon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA15ED1134267536A2A8458 = {
+			isa = PBXGroup;
+			children = (
+				FCA15995C42057CAE192ABAF /* Products */,
+				FCA153979D0E5422180E3BA0 /* MosaicLayout_Leon */,
+				CE91136D10DE19B8A9C8ECA4 /* Pods */,
+				CDC1D9195B3B11FB32701791 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA15040F8E5B46681E75810 /* MosaicLayout_Leon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA158E2D274D828B7D16443 /* Build configuration list for PBXNativeTarget "MosaicLayout_Leon" */;
+			buildPhases = (
+				BED881AB24BED88FB01F6F36 /* [CP] Check Pods Manifest.lock */,
+				FCA15A4AC3B751DD9E86CBB8 /* Sources */,
+				FCA1548649B99DF204431C85 /* Frameworks */,
+				FCA15BA14C0286E9293B2150 /* Resources */,
+				675025CFE62FA6FA4A892A59 /* [CP] Embed Pods Frameworks */,
+				1EFAC90CD8AD6E4D2333B033 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MosaicLayout_Leon;
+			productName = MosaicLayout_Leon;
+			productReference = FCA15C3ABA4EC169241B8EC0 /* MosaicLayout_Leon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA15F1034B4036C91CD74CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = clem;
+			};
+			buildConfigurationList = FCA152F9304FBFEF6313379A /* Build configuration list for PBXProject "MosaicLayout_Leon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCA15ED1134267536A2A8458;
+			productRefGroup = FCA15995C42057CAE192ABAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA15040F8E5B46681E75810 /* MosaicLayout_Leon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA15BA14C0286E9293B2150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA15964512BAEC0DB2E0A6B /* Assets.xcassets in Resources */,
+				FCA156260C5CB890263A654D /* LaunchScreen.storyboard in Resources */,
+				FCA15697E6B18D23E5CEE038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EFAC90CD8AD6E4D2333B033 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosaicLayout_Leon/Pods-MosaicLayout_Leon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675025CFE62FA6FA4A892A59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MosaicLayout_Leon/Pods-MosaicLayout_Leon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMMosaicLayout/FMMosaicLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMMosaicLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosaicLayout_Leon/Pods-MosaicLayout_Leon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED881AB24BED88FB01F6F36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MosaicLayout_Leon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA15A4AC3B751DD9E86CBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA157D79A3EB320FF79AD06 /* AppDelegate.swift in Sources */,
+				FCA15BD95B411D9579F4FB33 /* ViewController.swift in Sources */,
+				FCA159105AC3F032268DCC67 /* CustomCollectionCell.swift in Sources */,
+				FCA15B2CD6B4383AF0596C4F /* CustomHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA15355816D997B298E1286 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA15328972B5354BC612A83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA15783917A1E274EA63469 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA15DE25ADCFAF9A59014F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA151A1E6B8D7B5FCEC7CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6095F9005690CC6570613B42 /* Pods-MosaicLayout_Leon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MosaicLayout_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.MosaicLayout-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCA1591A413FC486077C7181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9EAC1B101B7B00BA1A1D01 /* Pods-MosaicLayout_Leon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MosaicLayout_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.MosaicLayout-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA15D9F1EBB8905F28D3C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA15EA70F18072E85D1DA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA152F9304FBFEF6313379A /* Build configuration list for PBXProject "MosaicLayout_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA15D9F1EBB8905F28D3C5D /* Debug */,
+				FCA15EA70F18072E85D1DA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA158E2D274D828B7D16443 /* Build configuration list for PBXNativeTarget "MosaicLayout_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA1591A413FC486077C7181 /* Debug */,
+				FCA151A1E6B8D7B5FCEC7CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA15F1034B4036C91CD74CF /* Project object */;
+}
