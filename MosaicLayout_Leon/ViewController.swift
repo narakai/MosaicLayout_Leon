@@ -123,10 +123,10 @@ extension ViewController: FMMosaicLayoutDelegate {
 
     //控制分区头尾是否在collectionview之上
     func headerShouldOverlayContent(in collectionView: UICollectionView!, layout collectionViewLayout: FMMosaicLayout!) -> Bool {
-        return true
+        return false
     }
 
     func footerShouldOverlayContent(in collectionView: UICollectionView!, layout collectionViewLayout: FMMosaicLayout!) -> Bool {
-        return true
+        return false
     }
 }
